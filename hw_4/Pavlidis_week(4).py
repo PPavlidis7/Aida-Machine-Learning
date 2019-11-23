@@ -1,12 +1,12 @@
-from sklearn.datasets import load_breast_cancer
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from sklearn import metrics
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sn
+from sklearn import metrics
+from sklearn.datasets import load_breast_cancer
+from sklearn.decomposition import PCA
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 
 
 def prediction_model_with_pca(x_train, x_test, y_train, y_test):

@@ -1,11 +1,10 @@
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sn
+from sklearn import metrics
+from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn import metrics
-import matplotlib.pyplot as plt
-import seaborn as sn
-from sklearn import tree
-
 
 FILE_NAME = 'Titanic.xlsx'
 

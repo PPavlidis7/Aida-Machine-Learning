@@ -1,7 +1,8 @@
 import statistics
-import pandas as pd
-import numpy as np
+
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 file_names = [
     "PRSA_Data_Aotizhongxin_20130301-20170228.csv",

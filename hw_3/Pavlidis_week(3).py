@@ -1,11 +1,12 @@
 import statistics
-import pandas as pd
-import numpy as np
+
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn import metrics
+import numpy as np
+import pandas as pd
 import seaborn as sn
+from sklearn import metrics
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
 
 FILE_NAME = 'wdbc.data'
 # column names source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/download
