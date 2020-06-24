@@ -1,11 +1,12 @@
-import pandas as pd
-import numpy as np
-from sklearn import metrics
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 import math
+
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn import metrics
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
 
 
 def data_preprocessing(df):
